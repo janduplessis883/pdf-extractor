@@ -1,0 +1,28 @@
+[theme]
+
+# Base colors can be 'light' or 'dark'
+base = "light"
+
+# Primary color for your app, specified as a hex or named CSS color
+primaryColor = "#406d8c"
+
+# Background color for your app
+backgroundColor = "#f2d7e5"
+
+# Secondary background color for your app
+secondaryBackgroundColor = "#dac6d7"
+
+# Text color for your app
+textColor = "#243e61"
+
+# Font for your app, choose between "sans serif", "serif", and "monospace"
+font = "sans serif"
+
+[deprecation]
+showPyplotGlobalUse = false
+
+[server]
+enableStaticServing = false
+
+[upload]
+file_formats = ["csv", "xlsx"]
